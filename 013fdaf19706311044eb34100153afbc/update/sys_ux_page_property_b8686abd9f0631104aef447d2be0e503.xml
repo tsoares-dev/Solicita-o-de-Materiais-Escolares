@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="Workspace Materiais Escolares">3c686abd300631102f461fe6682f2e14</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 17:07:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b8686abd9f0631104aef447d2be0e503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>sys_ux_page_property_b8686abd9f0631104aef447d2be0e503</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 17:07:12</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_752986_solicit_0.3c686abd300631102f461fe6682f2e14.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8686abd9f0631104aef447d2be0e503"/>
+</record_update>

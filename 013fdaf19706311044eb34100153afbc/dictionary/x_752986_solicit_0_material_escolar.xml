@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="99f1eeb59706311044eb34100153afa0" extends="task" label="Material Escolar" max_length="40" name="x_752986_solicit_0_material_escolar" text_index="true" type="collection">
+        <element label="Comentários" max_length="40" name="comentarios" type="string"/>
+        <element choice="3" label="Cor" mandatory="true" max_length="40" name="cor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Azul" sequence="0" value="azul"/>
+                <element inactive_on_update="false" label="Branco" sequence="1" value="branco"/>
+                <element inactive_on_update="false" label="Preto" sequence="2" value="preto"/>
+                <element inactive_on_update="false" label="Verde" sequence="3" value="verde"/>
+                <element inactive_on_update="false" label="Vermelho" sequence="4" value="vermelho"/>
+            </choice>
+        </element>
+        <element choice="1" label="Nome do Material" mandatory="true" max_length="40" name="nome_do_material" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Borracha" sequence="0" value="borracha"/>
+                <element inactive_on_update="false" label="Caneta" sequence="1" value="caneta"/>
+                <element inactive_on_update="false" label="Estojo" sequence="2" value="estojo"/>
+                <element inactive_on_update="false" label="Lápis" sequence="3" value="lapis"/>
+                <element inactive_on_update="false" label="Lápis de Cor" sequence="4" value="lapis_de_cor"/>
+            </choice>
+        </element>
+        <element label="Quantidade" max_length="40" name="quantidade" type="string"/>
+        <element label="Solicitante" mandatory="true" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aberto" sequence="0" value="aberto"/>
+                <element inactive_on_update="false" label="Em Andamento" sequence="1" value="em_andamento"/>
+                <element inactive_on_update="false" label="Concluído" sequence="2" value="conclu_do"/>
+            </choice>
+        </element>
+        <element choice="1" label="Urgência" max_length="40" name="urgencia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alta (1 dia)" sequence="0" value="alta_1_dia"/>
+                <element inactive_on_update="false" label="Média (3 dias)" sequence="1" value="m_dia_3_dias"/>
+                <element inactive_on_update="false" label="Baixa (5 dias)" sequence="2" value="baixa_5_dias"/>
+            </choice>
+        </element>
+    </element>
+</database>

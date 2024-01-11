@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="nome_do_material" table="x_752986_solicit_0_material_escolar" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>nome_do_material</element>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>nome_do_material</sys_name>
+            <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+            <sys_update_name>sys_choice_x_752986_solicit_0_material_escolar_nome_do_material</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nome_do_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Borracha</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>borracha</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nome_do_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caneta</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>caneta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nome_do_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estojo</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>estojo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nome_do_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lápis</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>lapis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>nome_do_material</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lápis de Cor</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>lapis_de_cor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

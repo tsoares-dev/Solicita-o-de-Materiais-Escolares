@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_752986_solicit_0.getUserInfoAndre</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getUserInfoAndre</name>
+        <script><![CDATA[var getUserInfoAndre = Class.create();
+getUserInfoAndre.prototype = {
+    initialize: function(sys_id) {
+        this.arr = [];
+        this.grUser = new GlideRecord("sys_user"); //Tabela de usuários
+        this.grUser.addQuery("sys_id", sys_id);
+        this.grUser.query();
+        while (this.grUser.next()) {
+            this.obj = {}; //Objeto com os campos
+            this.obj.first_name = this.grUser.first_name.getDisplayValue();
+            this.obj.last_name = this.grUser.last_name.getDisplayValue();
+            this.obj.email = this.grUser.email.getDisplayValue();
+            this.obj.company = this.grUser.company.name.getDisplayValue();
+            this.arr.push(this.obj);
+            return this.arr; //Objeto GlideRecord
+        }
+    },
+
+    type: 'TestBackgroundScriptUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:25:04</sys_created_on>
+        <sys_id>88985784975a711044eb34100153af8f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getUserInfoAndre</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>sys_script_include_88985784975a711044eb34100153af8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 00:51:37</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="workspace-materiais-escolares Search Profile">bc686abdae0631105a19279bad68e713</profile>
+        <search_source display_value="Material Escolar">c7682ebd9706311044eb34100153af1a</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 17:07:20</sys_created_on>
+        <sys_id>8f682ebd9706311044eb34100153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace-materiais-escolares Search Profile.Material Escolar</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_8f682ebd9706311044eb34100153af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 17:07:20</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

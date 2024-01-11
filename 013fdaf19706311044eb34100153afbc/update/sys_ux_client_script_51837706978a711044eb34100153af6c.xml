@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">3c686abdd9063110eb8f881894cb5104</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+    api.setState('parFilters', ({ currentValue }) => {
+        const { payload: { appliedFilters } } = event;
+        return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+    }); 
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:13:55</sys_created_on>
+        <sys_id>51837706978a711044eb34100153af6c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>sys_ux_client_script_51837706978a711044eb34100153af6c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 18:26:30</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

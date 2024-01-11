@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 16:30:09</sys_created_on>
+        <sys_id>a2ef1a359706311044eb34100153afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752986_solicit_0_u_solicitacao_de_materiais_escolares.x_752986_solicit_0.admin</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_security_acl display_value="x_752986_solicit_0_u_solicitacao_de_materiais_escolares">aaef1a359706311044eb34100153afd7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a2ef1a359706311044eb34100153afdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 16:30:09</sys_updated_on>
+        <sys_user_role display_value="x_752986_solicit_0.admin" name="x_752986_solicit_0.admin">853fdaf19706311044eb34100153afc2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</application>
+        <file_path/>
+        <instance_id>07eee663db21e9984d2bac44d496191a</instance_id>
+        <instance_name>dev166135</instance_name>
+        <name>sys_security_acl_role_a2ef1a359706311044eb34100153afdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-23 16:30:09</sys_created_on><sys_id>a2ef1a359706311044eb34100153afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_752986_solicit_0_u_solicitacao_de_materiais_escolares.x_752986_solicit_0.admin</sys_name><sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package><sys_policy/><sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope><sys_security_acl display_value="x_752986_solicit_0_u_solicitacao_de_materiais_escolares">aaef1a359706311044eb34100153afd7</sys_security_acl><sys_update_name>sys_security_acl_role_a2ef1a359706311044eb34100153afdd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-23 16:30:09</sys_updated_on><sys_user_role display_value="x_752986_solicit_0.admin" name="x_752986_solicit_0.admin">853fdaf19706311044eb34100153afc2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>325768042</payload_hash>
+        <record_name>x_752986_solicit_0_u_solicitacao_de_materiais_escolares.x_752986_solicit_0.admin</record_name>
+        <reverted_from/>
+        <source>893fdaf19706311044eb34100153afbe</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 16:30:09</sys_created_on>
+        <sys_id>e6ef1a359706311044eb34100153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b5d5f521d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 16:30:09</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6eef1a3530063110b7944c7d2d5d5de0</update_guid>
+        <update_guid_history>6eef1a3530063110b7944c7d2d5d5de0:325768042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_752986_solicit_0_u_solicitacao_de_materiais_escolares.x_752986_solicit_0.admin">96c02a759706311044eb34100153af2e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 16:33:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1377af38a1a94c7797d7cc3e79f9ddc9</sys_id>
+        <sys_metadata>a2ef1a359706311044eb34100153afdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752986_solicit_0_u_solicitacao_de_materiais_escolares.x_752986_solicit_0.admin</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_parent display_value="">aaef1a359706311044eb34100153afd7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_scope_delete display_value="">3bbf37b0726943ce9bb04d29e2b46704</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a2ef1a359706311044eb34100153afdd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a2ef1a359706311044eb34100153afdd">e6ef1a359706311044eb34100153affa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 16:33:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cor" table="x_752986_solicit_0_material_escolar" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cor</element>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cor</sys_name>
+            <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+            <sys_update_name>sys_choice_x_752986_solicit_0_material_escolar_cor</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azul</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>azul</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Branco</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>branco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preto</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>preto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verde</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>verde</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vermelho</label>
+            <language>en</language>
+            <name>x_752986_solicit_0_material_escolar</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-23 16:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-23 16:49:31</sys_updated_on>
+            <value>vermelho</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

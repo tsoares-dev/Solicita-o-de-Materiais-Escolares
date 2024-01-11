@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Solicitar Material Escolar">b98ed55e9702b11044eb34100153af31</sc_cat_item>
+        <sc_category display_value="Solicitações">067121969742b11044eb34100153af9f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 01:14:51</sys_created_on>
+        <sys_id>169169969742b11044eb34100153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitações.Solicitar Material Escolar</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>sc_cat_item_category_169169969742b11044eb34100153af78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 01:14:51</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

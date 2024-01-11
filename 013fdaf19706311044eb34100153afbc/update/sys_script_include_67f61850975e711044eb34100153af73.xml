@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_752986_solicit_0.getIncident</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getIncident</name>
+        <script><![CDATA[var getIncident = Class.create();
+getIncident.prototype = {
+    initialize: function(incident) {
+        this.arr = [];
+        this.grIncident = new GlideRecord("incident"); //Tabela de Incidents
+        this.grIncident.addQuery("number", "INC0000036");
+        this.grIncident.query();
+        while (this.grIncident.next()) {
+            this.obj = {}; //Objeto com os campos
+            this.obj.assigned_to = this.grIncident.assigned_to.getDisplayValue();
+            this.obj.priority = this.grIncident.priority.getDisplayValue();
+            this.obj.short_description = this.grIncident.short_description.getDisplayValue();
+            this.arr.push(this.obj);
+            return this.arr; //Objeto GlideRecord
+        }
+    },
+
+    type: 'getIncident'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 00:56:45</sys_created_on>
+        <sys_id>67f61850975e711044eb34100153af73</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>getIncident</sys_name>
+        <sys_package display_value="Solicitação de Materiais Escolares" source="x_752986_solicit_0">013fdaf19706311044eb34100153afbc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Materiais Escolares">013fdaf19706311044eb34100153afbc</sys_scope>
+        <sys_update_name>sys_script_include_67f61850975e711044eb34100153af73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 00:41:33</sys_updated_on>
+    </sys_script_include>
+</record_update>
